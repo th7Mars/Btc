@@ -1,0 +1,26 @@
+{
+  "name": "btc-p2p",
+  "version": "0.2.0",
+  "description": "Manage a network of Bitcoin peers",
+  "keywords": [
+    "p2p",
+    "network",
+    "bitcoin",
+    "peers",
+    "cryptography"
+  ],
+  "main": "./lib/BTCNetwork.js",
+  "dependencies": {
+    "p2p-manager": "0.1.x",
+    "crypto-binary": "0.1.x",
+    "crypto-hashing": "0.1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.*"
+  },
+  "repository": {
+    "url": "https://github.com/cryptocoinjs/btc-p2p",
+    "type": "git"
+  },
+  "author": "Brooks Boyd <boydb@midnightdesign.ws>"
+}
